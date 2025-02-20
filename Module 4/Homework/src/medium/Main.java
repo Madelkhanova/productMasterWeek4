@@ -12,6 +12,11 @@ public class Main {
         GeoData geoData = geoDataDataSource.getData();
         System.out.println(myData.toString());
         System.out.println(geoData.toString());
+        DataSource<UserData> userDataDataSource = new Repository<>(
+                new CachedDataSource<>(), new UserDataCloudDataSource()
+        );
+        UserData userData = userDataDataSource.getData();
+        System.out.println(userData.toString());
     }
 
 }
