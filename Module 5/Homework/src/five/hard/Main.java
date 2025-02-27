@@ -1,6 +1,8 @@
 package five.hard;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Scanner;
 
 public class Main {
 

@@ -1,6 +1,4 @@
-package easy;
-
-import java.util.Scanner;
+package five.easy;
 
 public class Main {
     public static void main(String[] args) {
